@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/diet"
+    android:padding="16dp">
+
+    <!-- Title TextView -->
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Customized_diet_plan"
+        android:textSize="24sp"
+        android:textColor="#FF0FFF"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Age EditText -->
+    <EditText
+        android:id="@+id/editTextAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitle"
+        android:layout_marginTop="16dp"
+        android:hint="@string/Enter_your_age"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColorHint="#FFFF00" />
+
+    <!-- Weight EditText -->
+    <EditText
+        android:id="@+id/editTextWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextAge"
+        android:layout_marginTop="16dp"
+        android:hint="@string/enter_your_weight_kg2"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:textColorHint="#FFFF00" />
+
+    <!-- Feet EditText -->
+    <EditText
+        android:id="@+id/editTextFeet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextWeight"
+        android:layout_marginTop="16dp"
+        android:hint="@string/Enter_feet"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColorHint="#FFFF00" />
+
+    <!-- Inches EditText -->
+    <EditText
+        android:id="@+id/editTextInches"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextFeet"
+        android:layout_marginTop="16dp"
+        android:hint="@string/Enter_inches"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColorHint="#FFFF00" />
+
+    <!-- Generate Diet Plan Button -->
+    <Button
+        android:id="@+id/buttonGeneratePlan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/generate_diet_plan2"
+        android:layout_below="@id/editTextInches"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp" />
+
+    <!-- Diet Plan TextView -->
+    <TextView
+        android:id="@+id/textViewDietPlan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18sp"
+        android:textColor="#00FFFF"
+        android:layout_below="@id/buttonGeneratePlan"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp" />
+
+</RelativeLayout>

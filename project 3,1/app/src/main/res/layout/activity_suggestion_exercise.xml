@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Suggestion_exercise">
+
+    <!-- Exercise Description TextView -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/exercise_description"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:padding="16dp"
+            android:text="Exercise description will appear here."
+            android:textSize="18sp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- Uniform Square Buttons with Adjusted Text -->
+        <Button
+            android:id="@+id/mountain_climber_button"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="Mountain\nClimber"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:padding="4dp"
+            android:textColor="#000000"
+            android:backgroundTint="#FFFF00"
+            app:layout_constraintTop_toBottomOf="@id/exercise_description"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/sit_up_button"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="Sit Up"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:padding="4dp"
+            android:textColor="#000000"
+            android:backgroundTint="#FF5722"
+            app:layout_constraintTop_toBottomOf="@id/mountain_climber_button"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/basic_crunches_button"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="Basic\nCrunches"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:padding="4dp"
+            android:textColor="#000000"
+            android:backgroundTint="#FF00FF"
+            app:layout_constraintTop_toBottomOf="@id/sit_up_button"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/bicycle_crunches_button"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="Bicycle\nCrunches"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:padding="4dp"
+            android:textColor="#000000"
+            android:backgroundTint="#00FF00"
+            app:layout_constraintTop_toBottomOf="@id/basic_crunches_button"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/leg_raise_button"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="Leg Raise"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:padding="4dp"
+            android:textColor="#000000"
+            android:backgroundTint="#00BCD4"
+            app:layout_constraintTop_toBottomOf="@id/bicycle_crunches_button"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/heel_touch_button"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="Heel Touch"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:padding="4dp"
+            android:textColor="#000000"
+            android:backgroundTint="#FFD1DC"
+            app:layout_constraintTop_toBottomOf="@id/leg_raise_button"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/leg_up_crunches_button"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="Leg Up\nCrunches"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:padding="4dp"
+            android:textColor="#000000"
+            android:backgroundTint="#FFA500"
+            app:layout_constraintTop_toBottomOf="@id/heel_touch_button"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/sit_up2_button"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="Sit Up 2"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:padding="4dp"
+            android:textColor="#000000"
+            android:backgroundTint="#0000FF"
+            app:layout_constraintTop_toBottomOf="@id/leg_up_crunches_button"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/v_ups_button"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="V Ups"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:padding="4dp"
+            android:textColor="#000000"
+            android:backgroundTint="#800080"
+            app:layout_constraintTop_toBottomOf="@id/sit_up2_button"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/russian_twists_button"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="Russian\nTwists"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:padding="4dp"
+            android:textColor="#000000"
+            android:backgroundTint="#77DD77"
+            app:layout_constraintTop_toBottomOf="@id/v_ups_button"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/flutter_kicks_button"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="Flutter\nKicks"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:padding="4dp"
+            android:textColor="#000000"
+            android:backgroundTint="#FFD1DC"
+            app:layout_constraintTop_toBottomOf="@id/russian_twists_button"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/plank_button"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="Plank"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:padding="4dp"
+            android:textColor="#000000"
+            android:backgroundTint="#FFD700"
+            app:layout_constraintTop_toBottomOf="@id/flutter_kicks_button"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/side_plank_button"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="Side Plank"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:padding="4dp"
+            android:textColor="#000000"
+            android:backgroundTint="#EE82EE"
+            app:layout_constraintTop_toBottomOf="@id/plank_button"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="8dp" />
+        <Button
+            android:id="@+id/lunges_button"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="Lunges"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:padding="4dp"
+            android:textColor="#000000"
+            android:backgroundTint="#FF6347"
+            app:layout_constraintTop_toBottomOf="@id/side_plank_button"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/push_ups_button"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="Push Ups"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:padding="4dp"
+            android:textColor="#000000"
+            android:backgroundTint="#20B2AA"
+            app:layout_constraintTop_toBottomOf="@id/lunges_button"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="8dp" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">SignUpLoginRealtime</string>
+    <string name="enter_height_cm">enter_height_cm</string>
+    <string name="enter_weight_kg">enter_weight_kg</string>
+    <string name="calculate">calculate</string>
+    <string name="Customized_diet_plan">Customized_diet_plan</string>
+    <string name="Enter_your_age">Enter_your_age</string>
+    <string name="enter_your_weight_kg2">enter_your_weight_kg2</string>
+    <string name="Enter_feet">Enter_feet</string>
+    <string name="Enter_inches">Enter_inches</string>
+    <string name="generate_diet_plan2">generate_diet_plan2</string>
+    <string name="systolic_pressure">systolic_pressure</string>
+    <string name="diastolic_pressure">diastolic_pressure</string>
+    <string name="check_blood_pressure">check_blood_pressure</string>
+    <string name="previous">previous</string>
+    <string name="mountain_climber">mountain_climber</string>
+    <string name="next">next</string>
+    <string name="_2_00">_2_00</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="steps_0">steps_0</string>
+    <string name="enter_goal_steps">enter_goal_steps</string>
+    <string name="set_goal">set_goal</string>
+    <string name="distance_0_m">Distance: 0 m</string>
+</resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "64316660062",
+    "project_id": "signuploginrealtime-cec3c",
+    "storage_bucket": "signuploginrealtime-cec3c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64316660062:android:9ca354a4958b8577a717cf",
+        "android_client_info": {
+          "package_name": "com.example.signuploginrealtime"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlSge9hS4VF06NnHnxU3GK0lgLWCnmq-0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
